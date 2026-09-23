@@ -1,0 +1,86 @@
+body {
+    background-color: #ffefd5;
+    font-family:  'IBM Plex Sans Thai', sans-serif;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.preface {
+    background-image: url('../images/spahghettipre.jpg');
+    background-size: cover;
+    height: 60vh;
+    background-attachment: fixed;
+    padding-top: 100px;
+    text-align: right;
+    color: #ffffff;
+    margin: 0px auto;
+    padding-right: 100px;
+}
+
+.def {
+    border: none;
+    width: auto;
+    height: auto;
+    
+    background-color: white;
+    padding: 50px;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background: linear-gradient(to right, white, transparent);
+}
+
+.locate {
+    border: none;
+    width: auto;
+    height: auto;
+    
+    background-color: white;
+    padding: 50px;
+    
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, white, transparent);
+    text-align: right;
+}
+
+.intro {
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ptype {
+    height: 100vh;
+}
+
+.type {
+    display: flex;
+    width: auto;
+}
+
+.card {
+    width: 300px;
+    border: black solid;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.table {
+    margin: 0px auto;
+    text-align: center;
+    align-content: center;
+    vertical-align: center;
+}

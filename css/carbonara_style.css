@@ -1,0 +1,13 @@
+body {
+    background-color: papayawhip;
+    font-family:  'IBM Plex Sans Thai', sans-serif;
+    text-align: center;
+}
+
+
+.myul {
+    display: inline-block;
+    list-style-position: inside;
+
+}
+
