@@ -55,13 +55,18 @@ h1 {
     justify-content: center;
 }
 
-.ptype {
-    height: 100vh;
-}
+
 
 .type {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: auto;
+    flex-wrap: wrap;
+    width: 0 auto;
+    
+    
 }
 
 .card {
@@ -83,4 +88,15 @@ h1 {
     text-align: center;
     align-content: center;
     vertical-align: center;
+}
+
+.menu {
+    margin: 50px;
+}
+
+.menu table {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
